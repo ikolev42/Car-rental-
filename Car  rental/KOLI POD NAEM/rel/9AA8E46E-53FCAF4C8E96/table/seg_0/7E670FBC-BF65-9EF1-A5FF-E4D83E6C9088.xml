@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E670FBC-BF65-9EF1-A5FF-E4D83E6C9088" name="zaemane_pod_naem">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>F891CCAA-CAC9-951E-3381-B2E980A342F8</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pod_naem" id="DB7612FB-418B-BB69-5C77-AEE9CD78C436">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>1292D86A-A29B-D52A-7AF5-BB2329BECD4E</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_klient" id="760217EB-ADE8-8276-A42E-A3C66AE38334">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>FDAD81C1-CE9F-4A77-109F-B904E4BCD223</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="924EABE4-3DA9-F76C-1282-3C633CBB08E2" referredColumn="152DB185-E1E5-6012-0E49-35FAD5047414"/>
+</associations>
+</Column>
+<Column name="id_slujitel" id="E18D6214-93A8-B58D-8176-BB4729DD1A31">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>18B03A64-8B24-1428-B187-E718E14AAAA3</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A926F26B-2ABF-D56C-1E62-945C896574AD" referredColumn="18B9C21E-0140-9787-0A5D-47AF7BEF83C5"/>
+</associations>
+</Column>
+<Column name="data_na_zaemane" id="33BCA09F-7151-07A2-752D-6659E0485A9F">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>01211965-77D6-C012-48D8-FB49330A9E49</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broi_dni" id="0D8A9C53-0B48-A943-629C-3E49478A703B">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>93B71C53-B807-4117-1B1E-97E378AA2CE7</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_avtomobil" id="466EB21F-9D99-48EF-314E-5494FA414023">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>064FE0C3-D29C-56AD-147A-93881CAA4E91</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="850DD5CE-D1AE-EDF1-0DC2-BDF0B125077A" referredColumn="4B9096B2-795A-E3DD-D7CB-0527237F4FDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93231A9E-E0EA-3E10-A988-E417B917CF5A" name="zaemane_pod_naem_PK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>F59CF731-4E08-85C7-DA6A-00F697EB5991</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB7612FB-418B-BB69-5C77-AEE9CD78C436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39445330-789D-A3B1-1C40-233335F46F34" name="zaemane_pod_naem_Klient_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>E8D4FFEE-8290-A52A-5338-48752BC0A212</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="760217EB-ADE8-8276-A42E-A3C66AE38334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75D3D7B4-2140-C8AF-1C17-69AE8130003E" name="zaemane_pod_naem_Slujitel_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>E4E88004-EEBA-8603-5BF9-5F77EDBCED8A</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E18D6214-93A8-B58D-8176-BB4729DD1A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7FB8D1B-9CCC-8F69-1EE7-268024148000" name="zaemane_pod_naem_Avtomobil_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>A45907D0-C0CF-04C6-2C37-9FBA951F2DF6</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="466EB21F-9D99-48EF-314E-5494FA414023"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

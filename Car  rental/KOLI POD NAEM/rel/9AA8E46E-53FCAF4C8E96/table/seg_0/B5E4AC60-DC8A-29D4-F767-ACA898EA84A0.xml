@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5E4AC60-DC8A-29D4-F767-ACA898EA84A0" name="vid">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>E207EF39-6661-DCF1-59BA-6CE7988D79A3</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vid" id="089C1B0D-7DC1-BDAE-0D51-11BA03D0A6D4">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>6C08D8FF-F5C1-0D51-8B5A-97F7438A4EB8</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vid" id="95F02DD3-3114-093B-9061-00CF00C9BD80">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>EBAB565D-3894-2600-0CB3-27F452390E28</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91C38786-69AE-4247-F94F-92CF2E8FCC16" name="vid_PK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>5FB61259-B324-A065-C657-03B103C0C975</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="089C1B0D-7DC1-BDAE-0D51-11BA03D0A6D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

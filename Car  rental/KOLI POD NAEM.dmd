@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KOLI POD NAEM" id="8E6FED28-C8A2-7629-F517-9D7D68881950" version="3.5">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:50:20 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8E6FED28-C8A2-7629-F517-9D7D68881950</designId>
+</OSDM_Design>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D70BF4D3-0C3D-22FA-4159-60B8478BF593" name="Slujitel">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>4DD4AA6A-0480-62EC-19E4-5116D2DB793F</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_slujitel" id="18B9C21E-0140-9787-0A5D-47AF7BEF83C5">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>E0C8C98F-7EF7-85D3-2E2D-CBE3A5B912A5</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="EF185D02-8F28-A3F2-7A8B-B9AD4D828CC9">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>733EF278-4EAD-0AE4-42A1-84F8992862B1</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poziciq" id="3CCD31B8-81B4-A19E-76BB-64ECA7806D6D">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>B6A2BB63-0888-740C-48B0-D1D2F5695F23</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="1F6846C7-8C7E-3B4E-F47B-086CC1BB9B7E">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>068BD390-E366-B56B-6D13-1F4493DF1403</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_poziciq" id="3AC03680-3F99-7FE7-DC03-8841B13DC2BC">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>819911C5-AB45-102E-BACC-67771CF11C41</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="169846FD-19BD-B2FE-4CE1-18480DB7F8A6" referredColumn="E70E86FC-BA83-C1EA-1DE7-FB67B6AC9484"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFE8BAEC-BB32-A016-CF36-2D462788A4DA" name="Slujitel_PK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>BFAB63F6-B964-653E-26CC-E81CD6A03041</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18B9C21E-0140-9787-0A5D-47AF7BEF83C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B2135F3-2B2D-1DF0-28C6-4DD586282E1E" name="Slujitel_Poziciq_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>AEB9D5E2-428C-048D-596D-C3476787B1A2</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AC03680-3F99-7FE7-DC03-8841B13DC2BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

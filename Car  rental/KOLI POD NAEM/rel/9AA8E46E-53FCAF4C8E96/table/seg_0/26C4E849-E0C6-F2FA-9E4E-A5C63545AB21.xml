@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26C4E849-E0C6-F2FA-9E4E-A5C63545AB21" name="Relation_16">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Model_id_model" id="5579551C-0B3C-14A7-E76D-E1A0D809901F">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4B32AE7-4E18-6E0B-8339-6355A4AA5416" referredColumn="D2A97742-0B57-108A-418C-29C65DD2E9E8"/>
+</associations>
+</Column>
+<Column name="vid_id_vid" id="300301C4-E465-23E8-0E4A-277619E07175">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2900D039-0016-55DA-27DA-F61C5B8A0987" referredColumn="089C1B0D-7DC1-BDAE-0D51-11BA03D0A6D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="371BECD9-5DB4-29D6-557E-3824B87A7F6B" name="Relation_16_PK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5579551C-0B3C-14A7-E76D-E1A0D809901F"/>
+<colUsage columnID="300301C4-E465-23E8-0E4A-277619E07175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9EF3741-9B1F-7258-4440-472D94579FAF" name="FK_ASS_2">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>DB193EC8-12DE-4E29-D11C-8FAF76DD063A</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5579551C-0B3C-14A7-E76D-E1A0D809901F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1D54253-507C-3325-66B2-4DAA3EA3E3DD" name="FK_ASS_3">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>DB193EC8-12DE-4E29-D11C-8FAF76DD063A</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="300301C4-E465-23E8-0E4A-277619E07175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

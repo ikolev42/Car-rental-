@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F7ABF8C-DC4F-4D72-DDD3-EF5BC2BB6A3A" name="Avtomobil">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>33F9EA50-1B95-1CBD-939A-7E3BA20B36BC</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_avtomobil" id="4B9096B2-795A-E3DD-D7CB-0527237F4FDD">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>CB56D80D-9F5C-9543-15B2-2FF43D270C0C</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godina" id="7C99D672-819A-D265-A2B0-D88F5EC824D9">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>3A9AA3A4-7857-42CB-2F76-809B7CA4DEE9</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Izminati_km" id="1BC7F0B5-8044-C0F5-8584-F8CF4C662F1A">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>9B6C3DF4-827A-11AA-6D67-27202869CC82</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena_na_den" id="81D151E7-E67D-1A23-92A3-BB672C1AC711">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>E78E30FB-8659-B581-90AB-FF2BCB27F8C3</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cvqt" id="D6D4AAC3-11C4-A7A1-0AD6-6118D2EE9767">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>F6483C1E-7B0A-6922-8A39-98B492678306</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89E787A6-A963-C8CF-FED4-FF0619848C20" referredColumn="A1C49838-803B-D0B7-136A-4DD7F5D2B160"/>
+</associations>
+</Column>
+<Column name="id_model" id="11A9EA79-C494-B9D2-9B4C-1481206F2C8A">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>A2B4F6F0-FD9B-23B7-C306-460963392F04</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF86A917-CC16-E833-AEF7-1CD6E0052C5C" referredColumn="D2A97742-0B57-108A-418C-29C65DD2E9E8"/>
+</associations>
+</Column>
+<Column name="id_vid" id="6F468EEB-10CF-5139-C02C-678300FDF1DF">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>38378312-5E1D-E582-2033-8DC4E2FD3FEA</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC0D1A38-E31A-EF23-7031-B25B140EAAC9" referredColumn="089C1B0D-7DC1-BDAE-0D51-11BA03D0A6D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8527C406-A548-C4CB-E783-F1C11B21FFA6" name="Avtomobil_PK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>A3FF8D4D-323C-9184-C0EF-D640980F59AB</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B9096B2-795A-E3DD-D7CB-0527237F4FDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="894BC33F-382F-DB9E-5205-9CC162B5AA03" name="Avtomobil_Model_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>B317F0FD-C4E4-F982-AF6B-250445D57BEA</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11A9EA79-C494-B9D2-9B4C-1481206F2C8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6202D928-328F-5250-0EB7-906E047CFCF0" name="Avtomobil_vid_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>C2714D9D-4398-A1C7-3AA6-19C7618993FB</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F468EEB-10CF-5139-C02C-678300FDF1DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="402131A2-00F4-76FD-002F-5D9467E504B8" name="Avtomobil_cvqt_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>A5B63726-D72C-156B-DEC2-EFEB50727FF3</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6D4AAC3-11C4-A7A1-0AD6-6118D2EE9767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

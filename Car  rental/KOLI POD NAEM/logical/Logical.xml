@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F9369959-DFB3-BCCE-2D34-0E3AA361FFBB" mainViewID="9F8328FC-05B5-EDA4-F083-3B765A6484B0">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:50:20 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

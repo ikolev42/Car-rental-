@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2903BF50-37E3-1F12-4BDB-A22EF157FE24" name="Klient">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:54:49 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_klient" id="10B75356-C64F-7B02-46E5-8425B8B772E0">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 10:49:25 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="B883CBF2-356B-3FAF-3047-5135CE49EF5F">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:56:55 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres" id="7879C4E6-E439-5F88-7250-6DD70E12099B">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:56:55 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon" id="502031C0-81E8-6705-DBF1-5C8DBA4B2380">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:56:56 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_adres" id="DE4DCEBC-5721-C175-69F3-D7F80D568B73">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:20:09 UTC</createdTime>
+<generatorID>F09DBC45-E56F-3D13-9471-F5D65F69B7A0</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<referedAttribute>0B2AC6F8-A6A6-A7E3-FBE9-4291B70901F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA6E180E-5BB6-74EB-A58C-398D2A40F93F" name="Клиент PK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 10:49:45 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10B75356-C64F-7B02-46E5-8425B8B772E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC0D1A38-E31A-EF23-7031-B25B140EAAC9" containerWithKeyObject="5F7ABF8C-DC4F-4D72-DDD3-EF5BC2BB6A3A" localFKIndex="6202D928-328F-5250-0EB7-906E047CFCF0" name="Avtomobil_vid_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>C2714D9D-4398-A1C7-3AA6-19C7618993FB</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5E4AC60-DC8A-29D4-F767-ACA898EA84A0</referredTableID>
+<keyObject>91C38786-69AE-4247-F94F-92CF2E8FCC16</keyObject>
+<referredKeyID>91C38786-69AE-4247-F94F-92CF2E8FCC16</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

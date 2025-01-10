@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5E9BF41-2BEB-0C02-F68D-7002AA7B8E45" name="Adres">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:19:20 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="9AA8E46E-1CA8-886C-9D90-53FCAF4C8E96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_adres" id="0B2AC6F8-A6A6-A7E3-FBE9-4291B70901F4">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:19:29 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="9AA8E46E-1CA8-886C-9D90-53FCAF4C8E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grad" id="ACCA72CB-086D-616F-946F-64AD1FC23371">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:19:36 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="9AA8E46E-1CA8-886C-9D90-53FCAF4C8E96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87E0FB81-2AB5-E991-A957-9635A9EA1457" name="Adres PK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:19:57 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="9AA8E46E-1CA8-886C-9D90-53FCAF4C8E96" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B2AC6F8-A6A6-A7E3-FBE9-4291B70901F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

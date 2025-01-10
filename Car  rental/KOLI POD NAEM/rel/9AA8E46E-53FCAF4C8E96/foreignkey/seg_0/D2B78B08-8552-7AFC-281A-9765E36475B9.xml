@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2B78B08-8552-7AFC-281A-9765E36475B9" containerWithKeyObject="AF683E5E-446A-072F-63B7-9D84672A5627" localFKIndex="268A16B8-48AD-A5E9-99D0-B25D142714EE" name="Model_marka_FK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 11:45:46 UTC</createdTime>
+<generatorID>9C470E9B-3D6C-7292-E23F-C01279508AB3</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17496554-7805-E4E4-5FFE-EEAE52D4325D</referredTableID>
+<keyObject>107B5EDD-0B6D-6390-067E-4C63CC4E7629</keyObject>
+<referredKeyID>107B5EDD-0B6D-6390-067E-4C63CC4E7629</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33F9EA50-1B95-1CBD-939A-7E3BA20B36BC" name="Avtomobil">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:55:23 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_avtomobil" id="CB56D80D-9F5C-9543-15B2-2FF43D270C0C">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:55:26 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Godina" id="3A9AA3A4-7857-42CB-2F76-809B7CA4DEE9">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:55:29 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Izminati km" id="9B6C3DF4-827A-11AA-6D67-27202869CC82">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:55:58 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena na den" id="E78E30FB-8659-B581-90AB-FF2BCB27F8C3">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-04 10:56:09 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cvqt" id="F6483C1E-7B0A-6922-8A39-98B492678306">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 10:35:33 UTC</createdTime>
+<generatorID>A5B63726-D72C-156B-DEC2-EFEB50727FF3</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<referedAttribute>359A1AC2-E159-D73A-3EA9-EDD751BEECD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_model" id="A2B4F6F0-FD9B-23B7-C306-460963392F04">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 10:41:19 UTC</createdTime>
+<generatorID>B317F0FD-C4E4-F982-AF6B-250445D57BEA</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<referedAttribute>A811AD72-B790-552F-4793-4FAFC91F6AE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vid" id="38378312-5E1D-E582-2033-8DC4E2FD3FEA">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-18 10:44:07 UTC</createdTime>
+<generatorID>C2714D9D-4398-A1C7-3AA6-19C7618993FB</generatorID>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<referedAttribute>6C08D8FF-F5C1-0D51-8B5A-97F7438A4EB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3FF8D4D-323C-9184-C0EF-D640980F59AB" name="Автомобил PK">
+<createdBy>Student</createdBy>
+<createdTime>2023-10-11 11:38:03 UTC</createdTime>
+<ownerDesignName>KOLI POD NAEM</ownerDesignName>
+<engineerTo>
+<item key="D389A8BE-6FFD-48CF-C855-C4D0FDDAC608" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB56D80D-9F5C-9543-15B2-2FF43D270C0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
